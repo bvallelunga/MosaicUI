@@ -61,8 +61,14 @@
 
 -(void)setModule:(MosaicData *)newModule{
     module = newModule;
+    UIImage *anImage;
     
-    UIImage *anImage = [UIImage imageNamed:self.module.imageFilename];
+    if(self.module.image == nil) {
+        anImage = [UIImage imageNamed:self.module.imageFilename];
+    } else {
+        anImage = self.module.image;
+    }
+    
     imageView.image = anImage;
     
     CGSize imgFinalSize = CGSizeZero;
