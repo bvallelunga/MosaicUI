@@ -12,11 +12,13 @@
     NSString *imageFilename;
     NSString *title;
     NSInteger size;
+    UIImage *image;
 }
 
 -(id)initWithDictionary:(NSDictionary *)aDict;
 
 @property (strong) NSString *imageFilename;
+@property (strong) UIImage *image;
 @property (strong) NSString *title;
 @property (readwrite) NSInteger size;
 
