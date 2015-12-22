@@ -1,11 +1,19 @@
 Pod::Spec.new do |s|
   s.name         = "MosaicUI"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "MosaicUI is a tiled UI for iOS that automatic layouts according to the elements' sizes."
-  s.homepage     = "https://github.com/betzerra/MosaicUI"
+  s.homepage     = "https://github.com/bvallelunga/MosaicUI"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ezequiel Alejandro Becerra" => "ezequiel@betzerra.com.ar" }
+<<<<<<< HEAD
+<<<<<<< HEAD
   s.source       = { :git => "https://github.com/betzerra/MosaicUI.git", :tag => "0.0.1" }
+=======
+  s.source       = { :git => "https://github.com/bvallelunga/MosaicUI.git", :tag => "0.0.2" }
+>>>>>>> parent of d34f9cf... Revert "Update MosaicUI.podspec"
+=======
+  s.source       = { :git => "https://github.com/bvallelunga/MosaicUI.git", :tag => "0.0.1" }
+>>>>>>> parent of 6659fbd... Revert "Update MosaicUI.podspec"
   s.platform     = :ios
   s.source_files = 'MosaicUI/*/*'
   s.requires_arc = true
