@@ -15,6 +15,7 @@
     self = [self init];
     if (self){
         self.imageFilename = [aDict objectForKey:@"imageFilename"];
+        self.image = [aDict objectForKey:@"image"];
         self.size = [[aDict objectForKey:@"size"] integerValue];
         self.title = [aDict objectForKey:@"title"];
     }
