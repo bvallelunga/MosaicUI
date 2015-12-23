@@ -69,8 +69,8 @@
     } else {
         anImage = self.module.image;
     }
-      
-    UIImage *anImage = [UIImage imageNamed:self.module.imageFilename];
+    
+    CGSize imgFinalSize = CGSizeZero;
 
     if (anImage.size.width < anImage.size.height){
         imgFinalSize.width = self.bounds.size.width;
